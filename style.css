@@ -11,16 +11,28 @@
 }
 
 .row{
-  display: grid;
-  /*grid-template-columns: repeat(12, 1fr);*/
-  /*grid-column-gap: 5px;*/
-  /*grid-row-gap: 5px;*/
+  /*display: inline;*/
+  display: flex; /* Enables flexbox */ 
+  justify-content: space-between; /* Aligns items in a row with space between */ 
+  /*column-gap: 50px;*/
+  /*row-gap: 50px;*/
+ margin-right: auto;
+    margin-left: auto; 
 }
 
-#project-preview img{
+.project-wrap{
   border-radius: 10px;
-  width: 50%;
-  overflow: hidden;
+  width: 400px;
+  text-align: center;
+  background-color: gray;  
+  border: 5px solid gray;
+  height: 250px;
+}
+
+.project-thumb img{
+  width: 400px;
+  height: 200px;
+  object-fit:scale-down;
 }
 
 body{
