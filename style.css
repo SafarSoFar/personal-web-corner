@@ -16,12 +16,22 @@ a{
 
 p{
   font-family: "Afacad Flux", sans-serif;
-  font-size: 40px;
-  font-size: 40px;
+  font-size: 25px;
+  font-size: 25px;
   color: white;
 }
 
 h1{
+  margin:10px;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+h2{
+  margin:10px;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 40px;
   color: white;
 }
 
@@ -65,7 +75,7 @@ h1{
   text-align: center;
   /*margin: auto;*/
 
-  padding: 25px 5px 400px;
+  padding: 25px 5px 40px;
   margin: 25px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px); height: auto; 
