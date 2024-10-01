@@ -1,49 +1,66 @@
  <!DOCTYPE html>
 <html>
   <head>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+    <base target="_blank"> <!--to open links in new tabs -->
   </head>
   <body>
+    <video autoplay muted loop id="bgVideo">
+      <source src="interstellar.mp4" type="video/mp4">
+    </video>
      
+     <div class="glass-container">
+        <center><h1>Welcome to SafarSofar's personal corner on the web!</h1>
+          <div id="pfp">
+            <img src="pfp.jpg" />
+          </div>
+
+          <p>I'm a 20 years old software engineer, graphics programmer, game developer who likes to solve puzzles (creating stuff)
+          on Turing Complete computational systems</p>
+          <p>Links to socials:</p>
+
+          <a href="https://github.com/SafarSoFar"><i class="fa fa-github" style="font-size: 2.0em;"></i></a>
+          <a href="https://x.com/safarsofar" "><i class="fa fa-twitter" style="font-size: 2.0em;"></i></a>
+          <a href="https://safarsofar.itch.io/"><i class="fa fa-gamepad" style="font-size: 2.0em;"></i></a>
+          <a href="https://www.youtube.com/@SafarSofar"><i class="fa fa-youtube" style="font-size: 2.0em;"></i></a>
+
+          <p>The projects that i've built:</p>
+        </center>
+
+        <div class="row">
+
+          <a href="https://github.com/SafarSoFar/pixelater">
+            <div class="project-wrap">
+              <div class="project-thumb">
+                <img src="pixelater-mirror.gif"/>
+              </div>
+              <p>Pixel art software - pixelater</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/SafarSoFar/connection-sim-cpp">
+            <div class="project-wrap">
+              <div class="project-thumb">
+                <img src="connection-sim.gif"/>
+              </div>
+              <p>Connection simulator</p>
+            </div>
+          </a>
+
+
+        </div>
+     </div>
      <!-- <div id="cover"> -->
      <!--  <img src="cover.jpg" /> -->
      <!-- </div> -->
 
-    <center><h1>Welcome to SafarSofar's personal corner on the web!</h1>
-      <div id="pfp">
-        <img src="pfp.jpg" />
-      </div>
-
-      <p>I'm a 20 years old software engineer, graphics programmer, game developer who likes to solve puzzles (creating stuff)
-       on Turing Complete computational systems</p>
-      <p>Links to socials:</p>
-
-      <a href="https://github.com/SafarSoFar" target="_blank"><i class="fa fa-github" style="font-size: 2.0em;"></i></a>
-      <a href="https://x.com/safarsofar" target="_blank"><i class="fa fa-twitter" style="font-size: 2.0em;"></i></a>
-      <a href="https://safarsofar.itch.io/" target="_blank"><i class="fa fa-gamepad" style="font-size: 2.0em;"></i></a>
-      <a href="https://www.youtube.com/@SafarSofar" target="_blank"><i class="fa fa-youtube" style="font-size: 2.0em;"></i></a>
-
-      <p>The projects that i've built:</p>
-    </center>
-
-    <div class="row">
-
-      <div class="project-wrap">
-        <div class="project-thumb">
-          <img src="connection-sim.gif"/>
-        </div>
-        <p>Connection simulator</p>
-      </div>
-
-      <div class="project-wrap">
-        <div class="project-thumb">
-          <img src="connection-sim.gif"/>
-        </div>
-      </div>
-
-
-    </div>
 
   </body>
 </html> 
