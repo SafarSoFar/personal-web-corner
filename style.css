@@ -17,6 +17,7 @@ a{
 p{
   font-family: "Afacad Flux", sans-serif;
   font-size: 40px;
+  font-size: 40px;
   color: white;
 }
 
@@ -50,20 +51,25 @@ h1{
 
 .row{
   display: flex; /* Enables flexbox */ 
-  justify-content: center; /* Aligns items in a row with space between */ 
+  /*justify-content: center; /* Aligns items in a row with space between */ */
+  margin: 20px;
+  overflow-x: scroll;
+  /*scrollbar-color: black;*/
 
 }
+
 
 .glass-container{
   box-shadow: inset 0 0 15px rgba(135, 135, 135, .1), 0 0 18px 3px rgba(0, 0, 0, .3);
   width: auto;
   text-align: center;
   /*margin: auto;*/
-  /*background-color: gray;  */
-  /*border: 5px solid gray;*/
 
+  padding: 25px 5px 400px;
+  margin: 25px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px); height: auto; 
+  border-radius: 20px;
 }
 
 .project-wrap{
@@ -71,10 +77,17 @@ h1{
   border-radius: 10px;
   width: 400px;
   text-align: center;
-  margin: auto;
-  background-color: rgba(10, 10, 10, 0.5);
+  margin: 30px;
+  padding: 15px;
   backdrop-filter: blur(10px); height: auto; 
-  height: 250px;
+  background-color: rgba(10, 10, 10, 0.5);
+  height: auto;
+}
+
+#project-name{
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 25px;
+  color: white;
 }
 
 .project-thumb img{
