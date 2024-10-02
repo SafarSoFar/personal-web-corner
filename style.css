@@ -84,7 +84,7 @@ h2{
   text-align: center;
   /*margin: auto;*/
 
-  padding: 25px 15px 40px;
+  padding: 25px 40px 40px;
   margin: 25px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px); height: auto; 
