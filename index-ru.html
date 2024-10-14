@@ -16,10 +16,10 @@
     <base target="_blank"> <!--to open links in new tabs -->
   </head>
   <body>
-    <video autoplay muted loop id="bgVideo">
+    <video autoplay="autoplay" muted defaultMuted playsinline loop="loop" oncontextmenu="return false" preload="auto" id="bgVideo">
       <source src="assets/ocean.mp4" type="video/mp4">
     </video>
-     
+
      <div class="glass-container">
         <a href="index.html" target="_self"><p style="margin: 45px 60px; text-align:right; position:relative;font-family: 'Montserrat'; font-size: 35px;">ENG</p></a>
         <center>
@@ -73,6 +73,16 @@
             </div>
           </a>
 
+          <a href="https://github.com/SafarSoFar/particle-attraction-sim">
+            <div class="project-wrap">
+              <div class="project-thumb">
+                <img src="assets/particles.gif"/>
+              </div>
+              <div id="project-name">Симуляция притяжения частиц (жидкости) на C++</div>
+            </div>
+          </a>
+
+
           <a href="https://github.com/SafarSoFar/immage">
             <div class="project-wrap">
               <div class="project-thumb">
@@ -82,21 +92,12 @@
             </div>
           </a>
 
-          <a href="https://github.com/SafarSoFar/3D-boids-raylib">
+          <a href="https://github.com/SafarSoFar/the-nostalgia-cube">
             <div class="project-wrap">
               <div class="project-thumb">
-                <img src="assets/boids.gif"/>
+                <img src="assets/nostalgia-cube.gif"/>
               </div>
-              <div id="project-name">3D Симуляция Боидов без игрового движка</div>
-            </div>
-          </a>
-
-          <a href="https://github.com/SafarSoFar/coding-train-starfield-rs">
-            <div class="project-wrap">
-              <div class="project-thumb">
-                <img src="assets/starfield.gif"/>
-              </div>
-              <div id="project-name">Rust симуляция комических частиц из ориг. javascript, i3</div>
+              <div id="project-name">The Nostalgia Cube - Шейдер с использованием GPU Stencil буффера на HLSL</div>
             </div>
           </a>
 
