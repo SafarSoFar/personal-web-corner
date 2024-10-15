@@ -54,9 +54,10 @@ h2{
   min-height: 100%;
   top: 0;
   left: 0;
+  object-fit: fill;
   
-  width: auto;
-  height: auto;
+  width: 100vh;
+  height: 100vh;
 
   z-index: -1;
 }
