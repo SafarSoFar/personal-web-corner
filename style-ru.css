@@ -8,6 +8,10 @@
 /*    "slnt" 0;*/
 /*}*/
 
+body{
+  overflow-x:hidden;
+}
+
 a{
     color: unset;
     text-decoration: unset;
